@@ -4,6 +4,10 @@
   "description": "React application boilerplate",
   "author": "Cássio Zen",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:TCotton/react-app-boilerplate.git"
+  },
   "scripts": {
     "start": "webpack-dev-server --progress",
     "build": "NODE_ENV=production node_modules/.bin/webpack -p --progress --colors"
